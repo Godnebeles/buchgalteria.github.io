@@ -1,0 +1,17 @@
+.intro-text-buchgalteria {
+	max-width: 1250px;
+	margin-bottom: 100px;
+	margin-right: auto;
+	margin-left:auto;
+	
+}
+
+.intro-text-buchgalteria li a {
+	display: initial;
+}
+
+	.intro-text-buchgalteria p, li {
+		font-size: 20px;
+		line-height: 26px;
+		color: white;
+	}

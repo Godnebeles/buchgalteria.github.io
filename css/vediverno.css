@@ -86,6 +86,9 @@ h6 {
   font-weight: 500;
 }
 
+p {
+  margin-bottom: 10px;
+}
 
 a {
   display: block;
@@ -172,6 +175,19 @@ figcaption {
   text-align: center;
 }
 
+.section {
+  position: relative;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.section.cc-cta {
+  padding-right: 80px;
+  padding-left: 80px;
+  background-color: #f4f4f4;
+}
 
 .section.fsblock {
   margin-top: 64px;
@@ -719,7 +735,6 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: auto;
-  margin-bottom: -20px;
   z-index: 99999;
   display: -webkit-box;
   display: -webkit-flex;
