@@ -1,0 +1,64 @@
+body{
+	background-color: 
+}
+
+
+.first-container {
+	background-color: #BF5045;
+	max-width: 100%;
+}
+
+.container {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-headline {
+	text-align: center;
+}
+
+.typography-hero-eyebrow {
+	padding-top: 30px;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.typography-hero-headline {
+ 	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/* Fresh area */
+.fresh-decision-area {
+	padding: 100px 0;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background-color: #030F59;
+}
+.typography-section {
+
+	font-size: 36px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.typography-section.section-fresh {
+	color:white;
+}
+
+.about {
+	display: flex;
+    justify-content: space-between;
+}
+
+.about_item {
+	    position: relative;
+	    width: 50%;
+}
