@@ -63,6 +63,16 @@
     text-decoration: none;
 }
 
+.word-or {
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.word-or p{
+    font-weight: 500 !important;
+    font-size: 100px !important;
+    text-align:center;
+}
 
 .intro-text-buchgalteria {
     max-width: 1250px;
@@ -103,6 +113,10 @@
     font-weight: 400;
 }
 
+.heading-all-in-contacts.buchgalteria {
+    line-height: 50px;
+}
+
 @media screen and (max-width: 991px) {
     .intro-text-buchgalteria p, li {
         font-size: 25px;
@@ -110,6 +124,14 @@
 
     .intro-text-buchgalteria li a {
         font-size: 25px;
+    }
+    .heading-all-in-contacts.buchgalteria {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .word-or p {
+        font-size: 50px;
+        font-weight: 700;
     }
 }
 /**/
