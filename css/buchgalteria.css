@@ -13,7 +13,7 @@
 
 .intro-text-before {
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 100;
 }
     
 
@@ -70,4 +70,56 @@
     .intro-img-buchgalteria img {
         max-width: 100%;
     }
+}
+
+
+/* second */
+.section-second {
+    background-color: #000f5c;
+    padding-bottom: 100px;
+}
+
+.second-text-block {
+  
+    max-width: 1250px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    font-weight: 400;
+}
+
+.what {
+    color: white;
+    font-family: Vollkorn, serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.second-text-block li {
+    font-size: 30px;
+    line-height: 26px;
+    color: white;
+    font-weight: 400;
+}
+
+.second-footer-text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.second-footer-text span{
+    font-size: 50px;
+    color: white;
+    line-height: 50px;
+}
+
+/*
+    third
+*/
+
+.about-us-text {
+    font-size: 30px;
+    line-height: 30px;
 }
