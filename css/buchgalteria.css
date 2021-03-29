@@ -99,10 +99,12 @@
     font-weight: 400;
 }
 
-.intro-header-cetered {
-    margin-top: 70px;
-    margin-bottom: 30px;
-}
+
+
+    .intro-header-cetered {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
 
 .intro-text-before {
     font-size: 20px;
@@ -266,8 +268,7 @@
 
 .about-us-text {
     font-size: 30px;
-    line-height: 30px;
-    
+    line-height: 25px;
 }
 
 .to-order-button-area {
@@ -276,7 +277,7 @@
 @media screen and (max-width: 991px) {
     .about-us-text {
         font-size: 20px;
-        line-height: 20px;
+        line-height: 25px;
     }
 
     .section.third {
