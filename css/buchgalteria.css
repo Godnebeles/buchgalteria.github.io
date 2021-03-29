@@ -62,7 +62,7 @@
     -ms-flex-order: 1;
     order: 1;
     border-radius: 999px;
-    border: 4px double black;
+    border: 4px solid black;
     background-color: white;
     color: #fff;
     font-size: 16px;
@@ -79,14 +79,15 @@
 
 
     .word-or {
-        margin-top: 100px;
-        margin-left: 50px;
+        margin-bottom: -50px;
+        
     }
 
     .word-or p {
+        font-style: italic;
         font-weight: 500 !important;
-        font-size: 100px !important;
-        text-align: center;
+        font-size: 25px !important;
+        
     }
 
 .intro-text-buchgalteria {
@@ -104,7 +105,7 @@
 }
 
 .intro-text-before {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
 }
 
@@ -114,7 +115,8 @@
     display: initial;
     color: black;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Proximanova';
 }
 
 .intro-text-buchgalteria li::marker {
@@ -126,6 +128,7 @@
     line-height: 26px;
     color: black;
     font-weight: 400;
+    font-family: 'Proximanova';
 }
 
 .heading-all-in-contacts.buchgalteria {
@@ -134,16 +137,18 @@
 
 @media screen and (max-width: 991px) {
     .intro-text-buchgalteria p, li {
-        font-size: 25px;
+        font-size: 20px;
+        line-height: 26px;
     }
 
     .intro-text-buchgalteria li a {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .heading-all-in-contacts.buchgalteria {
-        font-size: 35px;
+        font-size: 40px;
         line-height: 40px;
+        font-family: Vollkorn, serif;
     }
 
     .word-or p {
@@ -194,7 +199,7 @@
 }
 
 .second-img-buchgalteria {
-    max-width: 100%;
+    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -232,12 +237,12 @@
     font-size: 30px;
     line-height: 26px;
     color: white;
-    font-weight: 400;
+    font-family: 'Proximanova';
 }
 
 @media screen and (max-width: 991px) {
     .second-text-block li {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 }
 
@@ -251,6 +256,7 @@
         font-size: 50px;
         color: white;
         line-height: 50px;
+        font-family: Vollkorn, serif;
     }
 
 /*
@@ -260,6 +266,7 @@
 .about-us-text {
     font-size: 30px;
     line-height: 30px;
+    font-family: 'Proximanova';
 }
 
 .to-order-button-area {
