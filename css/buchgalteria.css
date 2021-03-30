@@ -10,6 +10,7 @@ h3 {
     line-height: 40px !important;
 }
 h4 {
+    font-weight: 600 !important;
     font-size: 36px !important;
     line-height: 40px !important;
     text-align:center;
@@ -304,6 +305,17 @@ span {
 }
 
 .to-order-button-area {
+}
+
+.price {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 15, 92, 1);
+    border-radius: 20px;
+}
+#Button-Express {
+    color: #bf2b18;
 }
 
 @media screen and (max-width: 991px) {
