@@ -328,3 +328,13 @@ span {
         margin-top: 60px;
     }
 }
+
+
+.basiclist.item {
+    max-width: 100%;
+}
+
+.basiclist {
+    height: auto;
+    flex-wrap: nowrap;
+}
