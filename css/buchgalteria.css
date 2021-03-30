@@ -1,3 +1,29 @@
+myteg {
+    color: #bf2b18;
+}
+h2 {
+    font-size: 36px !important;
+    line-height: 40px !important;
+}
+h3 {
+    font-size: 32px !important;
+    line-height: 40px !important;
+}
+h4 {
+    font-size: 36px !important;
+    line-height: 40px !important;
+    text-align:center;
+}
+
+li {
+    font-size: 18px !important;
+    line-height: 23px !important;
+}
+
+span {
+    font-size: 18px !important;
+    line-height: 23px !important;
+}
 
 .tel-button {
     width: 56px;
@@ -70,6 +96,12 @@
     text-align:center;
    
 }
+.wtfs {
+    color: #bf2b18;
+    font-size: 36px !important;
+    line-height: 23px !important;
+    text-decoration: none;
+}
     .site-button span {
         color: black;
         font-weight: 800;
@@ -107,8 +139,8 @@
     }
 
 .intro-text-before {
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 18px !important;
+    line-height: 23px !important;
 }
 
 
