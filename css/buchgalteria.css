@@ -309,13 +309,13 @@ span {
 
 .price {
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: rgba(0, 15, 92, 1);
     border-radius: 20px;
 }
 #Button-Express {
-    color: #bf2b18;
+   width: 100%;
 }
 
 @media screen and (max-width: 991px) {
